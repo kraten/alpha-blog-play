@@ -1,2 +1,95 @@
+$navbar-default-bg: #fff;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+  color: #fff;
+  background-color: #674EA7;  
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.center{
+  text-align: center;
+}
+
+.jumbotron{
+  background-color: #674EA7;
+  // background-image: asset-url('cover-image.jpg');
+  background-size: cover;
+  height: 500px;
+  border: 3px solid black;
+}
+
+.jumbotron h1{
+  color: white;
+  font-weight: bold;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.cover-heading{
+  background-color: #8E7CC3;
+  margin: auto;
+  margin-bottom: 40px;
+  height: 20%;
+  width: 63%;
+}
+
+.btn-xlarge{
+  font-size: 1.7em;
+  border-width: 2px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  background-color: #333333;
+  border-color: black;
+  width: 300px;
+}
+
+.btn-xlarge:hover{
+  background-color: #674EA7;
+  border-color: black;
+}
+
+.btn-xlarge:active{
+  background-color: #674EA7 !important;
+  border-color: black;
+}
+
+footer{ 
+  margin-top: 45px;
+  padding: 13px 15px 0px 15px;
+  border-top: 1px solid #eaeaea;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+footer a:hover{
+  color: #222;
+}
+
+footer small{
+  float: left;
+}
+
+footer ul{
+  float: right;
+  list-style: none;
+}
+
+footer ul li{
+  float: left;
+  margin-left: 15px;
+}
