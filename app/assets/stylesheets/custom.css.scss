@@ -25,36 +25,36 @@ $navbar-default-bg: #fff;
   background-color: #674EA7;
   // background-image: asset-url('cover-image.jpg');
   background-size: cover;
-  height: 500px;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
+  padding-top: 130px;
+  padding-bottom: 130px;
   margin: 0;
-}
-
-.jumbotron h1{
-  color: white;
-  font-weight: bold;
-  margin-top: 90px;
-  text-align: center;
-  letter-spacing: -1px;
 }
 
 .cover-heading{
   background-color: #8E7CC3;
-  margin: auto;
   margin-bottom: 40px;
-  height: 20%;
-  width: 63%;
+  padding-bottom: 10px;
+}
+
+.cover-heading h1{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1px;
 }
 
 .btn-xlarge{
   font-size: 1.7em;
+  text-align: center;
   border-width: 2px;
   border-bottom: 5px solid black;
   border-right: 5px solid black;
   background-color: #333333;
   border-color: black;
-  width: 300px;
+  margin: 0;
+  width: 75%;
 }
 
 .btn-xlarge:hover{
@@ -72,7 +72,7 @@ html { height: 100%; }
 body {
     min-height:100%; 
     position:relative; 
-    padding-bottom:85px; 
+    padding-bottom:85px;
 }
 
 footer{ 
@@ -81,6 +81,7 @@ footer{
   position: absolute; 
   left: 0 ; right: 0; bottom: 0; 
   height: 45px;
+  background-color: #F0F0F0;
 }
 
 footer a:hover{
@@ -99,6 +100,7 @@ footer ul{
 footer ul li{
   float: left;
   margin-left: 15px;
+  font-size: 0.9em;
 }
 
 .btn-purple{
@@ -120,6 +122,7 @@ footer ul li{
 .description{
   min-height: 280px;
   font-size: 1.3em;
+  padding-bottom: 30px;
 }
 
 .action-btn{

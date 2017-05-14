@@ -10,15 +10,23 @@
   
   <div class="row">
     
-    <div class="col-sm-4">
-      <%= link_to 'Edit this article', edit_article_path(@article), class: "btn btn-default btn-primary action-btn" %>
-    </div>  
-    <div class="col-sm-4">  
-      <%= link_to 'Delete this article', article_path(@article), method: :delete, data: { confirm: "Are you sure want to delete this article?" }, class: "btn btn-default btn-danger action-btn" %>
-    </div>  
-    <div class="col-sm-4">  
-      <%= link_to 'Show all articles', articles_path, class: "btn btn-default btn-success action-btn" %>
+    <div class="col-xs-4">  
+      <%= link_to articles_path, class: "btn btn-purple action-btn" do %>
+        <i class="glyphicon glyphicon-home"></i>
+      <% end %> 
     </div>
+    
+    <div class="col-xs-4">
+      <%= link_to edit_article_path(@article), class: "btn btn-purple action-btn" do %>
+        <i class="glyphicon glyphicon-pencil"></i>
+      <% end %>
+    </div>
+    
+    <div class="col-xs-4">
+      <%= link_to article_path(@article), method: :delete, data: { confirm: "Are you sure want to delete this article?" }, class: "btn btn-purple action-btn" do %>
+        <i class="glyphicon glyphicon-remove"></i>
+      <% end %>  
+    </div>  
     
   </div>
   
