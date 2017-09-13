@@ -1,1 +1,3 @@
-This is a repository for first alpha-blog app
+This is a simple blog application developed using Ruby on Rails
+
+To view demo, visit: https://alpha-blog-play.herokuapp.com/
